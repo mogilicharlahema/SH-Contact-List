@@ -1,0 +1,145 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.contactForm {
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    margin: 100px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+}
+
+.contactForm:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #6c63ff;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #6c63ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+}
+
+
+.save {
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    background-color: #6c63ff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+}
+
+.save:hover {
+    background-color: #5a54db;
+}
+
+
+.contactsList {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contactsList h2 {
+    color: #6c63ff;
+}
+
+.addContact {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #6c63ff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.addContact:hover {
+    background-color: #5a54db;
+}
+
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff;
+    margin: 35px 0 0px 30%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+}
+
+
+.edit,
+.delete {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 50px;
+}
+
+.edit {
+    background-color: #008CBA; 
+    color: white;
+}
+
+.edit:hover {
+    background-color: #005f73; 
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #c62828;
+}
+.contactInfo {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 5px;
+   
+  }
+  
+  .contactInfo i {
+    margin-right: 15px;
+  }
+  
